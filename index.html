@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Captação de Dados para Doação de Sangue</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+      <div class="navbar"> 
+        <h2>Sistema de Captação de Dados para Doação de Sangue</h2>
+    </div>
+
+    <br><br>
+
+        <div class="formulario">
+            <form id="formDoacao"> </form>
+               
+            <div class="a"> 
+                <label for="nome"> Nome: </label>
+                <input type="text" id="nome" placeholder="Digite seu nome"> 
+                
+                <br><br>
+                
+                <label for="email"> Email: </label>
+                <input type="email" id="email" placeholder="Digite seu email">
+                
+                <br><br>
+
+                <label for="idade"> Idade: </label>
+                <input type="idade" id="idade" placeholder="Digite sua idade">
+                
+                <br> <br> 
+
+                <label for="peso"> Peso: </label>
+                <input type="peso" id="peso" placeholder="Digite seu peso">
+
+                <br> <br> 
+                
+                <label for="tipo sangineo"> Tipo sanguíneo: </label>
+                <select name="tipo sangineo" id="tipo sangineo"> 
+                    <option value=""> Selecione </option>
+                    <option value="tipo sangineo"> A+ </option>
+                    <option value="tipo sangineo"> A- </option>
+                    <option value="tipo sangineo"> B+ </option>
+                    <option value="tipo sangineo"> B- </option>
+                    <option value="tipo sangineo"> AB+ </option>
+                    <option value="tipo sangineo"> AB- </option>
+                    <option value="tipo sangineo"> O+ </option>
+                    <option value="tipo sangineo"> O- </option>
+                </select>
+
+                <br> <br>
+
+                <label for="telefone"> Telefone: </label>
+                <input type="telefone" id="telefone" placeholder="Digite seu telefone">
+                
+                <br><br>
+                
+                <label for="cidade"> Cidade: </label>
+                <input type="cidade" id="cidade" placeholder="Digite sua cidade">
+
+                <br><br>
+                
+                <label for="estado"> Estado: </label>
+                <input type="estado" id="estado" placeholder="Digite seu estado">
+                
+                <br><br>
+                        
+                    <label for="doar"> Aceitar o termo de responsabilidade </label>
+                    <input type="checkbox" id="opcao" name="opcao" value="item">
+                </div>
+                    
+                <br> <br>
+                    
+                <label for="regras">  </label>
+                <button type="submit"> Enviar </button>
+            </form>
+            </div>
+            
+            <div id="resultado"></div>
+
+           <script src="sistema.js"></script>
+    
+    
+</body>
+</html>
