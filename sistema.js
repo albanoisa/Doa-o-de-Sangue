@@ -10,3 +10,4 @@ document.getElementById(formDoacao) .addEventListener("submit", function (e) {
     let cidade = document.getElementById("cidade").value;
     let estado = document.getElementById("estado").value;
 }
+)
