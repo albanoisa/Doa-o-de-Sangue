@@ -1,6 +1,6 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(224, 129, 129);
+    background-color: rgb(245, 167, 167);
 }
 
 header{
@@ -10,14 +10,15 @@ header{
 }
 
 .navbar {
-    background-color: rgb(177, 53, 53);
+    background-color: rgb(141, 30, 30);
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
+
 
 .formulario {
     width: 50%;
